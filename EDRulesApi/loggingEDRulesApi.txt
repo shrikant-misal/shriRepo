@@ -1,0 +1,57 @@
+"2019-05-03 14:18:07 [restartedMain] INFO  c.usa.state.ed.EdRulesApiApplication - Starting EdRulesApiApplication on DESKTOP-KA9DOTA with PID 4948 (started by shrikant in E:\Spring Boot Project\EDRulesApi)
+""2019-05-03 14:18:07 [restartedMain] DEBUG c.usa.state.ed.EdRulesApiApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+""2019-05-03 14:18:07 [restartedMain] INFO  c.usa.state.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+""2019-05-03 14:18:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2019-05-03 14:18:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2019-05-03 14:18:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+""2019-05-03 14:18:11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2019-05-03 14:18:11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+""2019-05-03 14:18:11 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/rulesApi] - Initializing Spring embedded WebApplicationContext
+""2019-05-03 14:18:12 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+""2019-05-03 14:18:13 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2019-05-03 14:18:13 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2019-05-03 14:18:13 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+""2019-05-03 14:18:13 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+""2019-05-03 14:18:13 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+""2019-05-03 14:18:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/rulesApi'
+""2019-05-03 14:18:14 [restartedMain] INFO  c.usa.state.ed.EdRulesApiApplication - Started EdRulesApiApplication in 8.336 seconds (JVM running for 9.885)
+""2019-05-03 14:19:17 [http-nio-9090-exec-3] INFO  o.a.c.c.C.[.[localhost].[/rulesApi] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2019-05-03 14:20:41 [http-nio-9090-exec-2] DEBUG c.u.s.ed.controller.EDRestController - EDRestController.getPlanEligibility() method has started
+""2019-05-03 14:20:41 [http-nio-9090-exec-2] DEBUG c.u.s.ed.controller.EDRestController - EDRestController.getPlanEligibility():method has invoked service.checkEligibilityForPlan(request) 
+""2019-05-03 14:20:41 [http-nio-9090-exec-2] DEBUG c.usa.state.ed.service.EdServiceImpl - EdServiceImpl.checkEligibilityForPlan():: Method Execution started......
+""2019-05-03 14:20:41 [http-nio-9090-exec-2] DEBUG c.u.s.ed.controller.EDRestController - EDRestController.getPlanEligibility():->service.checkEligibilityForPlan request has issue::com.usa.state.ed.rulesServices.shrikantRulesService
+""2019-05-03 14:20:41 [http-nio-9090-exec-2] DEBUG c.u.s.ed.controller.EDRestController - EDRestController.getPlanEligibility() method has been completed
+""2019-05-03 14:20:41 [http-nio-9090-exec-2] INFO  c.u.s.ed.controller.EDRestController - EDRestController.getPlanEligibility() method successfully completed.........
+""2019-05-03 14:21:21 [http-nio-9090-exec-3] DEBUG c.u.s.ed.controller.EDRestController - EDRestController.getPlanEligibility() method has started
+""2019-05-03 14:21:21 [http-nio-9090-exec-3] DEBUG c.u.s.ed.controller.EDRestController - EDRestController.getPlanEligibility():method has invoked service.checkEligibilityForPlan(request) 
+""2019-05-03 14:21:21 [http-nio-9090-exec-3] DEBUG c.usa.state.ed.service.EdServiceImpl - EdServiceImpl.checkEligibilityForPlan():: Method Execution started......
+""2019-05-03 14:21:21 [http-nio-9090-exec-3] DEBUG c.u.s.ed.controller.EDRestController - EDRestController.getPlanEligibility():->service.checkEligibilityForPlan request has issue::com.usa.state.ed.rulesServices.shrikantRulesService
+""2019-05-03 14:21:21 [http-nio-9090-exec-3] DEBUG c.u.s.ed.controller.EDRestController - EDRestController.getPlanEligibility() method has been completed
+""2019-05-03 14:21:21 [http-nio-9090-exec-3] INFO  c.u.s.ed.controller.EDRestController - EDRestController.getPlanEligibility() method successfully completed.........
+""2019-05-03 14:21:56 [http-nio-9090-exec-5] DEBUG c.u.s.ed.controller.EDRestController - EDRestController.getPlanEligibility() method has started
+""2019-05-03 14:21:56 [http-nio-9090-exec-5] DEBUG c.u.s.ed.controller.EDRestController - EDRestController.getPlanEligibility():method has invoked service.checkEligibilityForPlan(request) 
+""2019-05-03 14:21:56 [http-nio-9090-exec-5] DEBUG c.usa.state.ed.service.EdServiceImpl - EdServiceImpl.checkEligibilityForPlan():: Method Execution started......
+""2019-05-03 14:21:56 [http-nio-9090-exec-5] DEBUG c.u.s.ed.controller.EDRestController - EDRestController.getPlanEligibility():->service.checkEligibilityForPlan request has issue::com.usa.state.ed.rulesServices.shrikantRulesService
+""2019-05-03 14:21:56 [http-nio-9090-exec-5] DEBUG c.u.s.ed.controller.EDRestController - EDRestController.getPlanEligibility() method has been completed
+""2019-05-03 14:21:56 [http-nio-9090-exec-5] INFO  c.u.s.ed.controller.EDRestController - EDRestController.getPlanEligibility() method successfully completed.........
+""2019-05-03 14:22:16 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2019-05-03 14:22:16 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2019-05-03 14:22:56 [restartedMain] INFO  c.usa.state.ed.EdRulesApiApplication - Starting EdRulesApiApplication on DESKTOP-KA9DOTA with PID 6548 (started by shrikant in E:\Spring Boot Project\EDRulesApi)
+""2019-05-03 14:22:56 [restartedMain] DEBUG c.usa.state.ed.EdRulesApiApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+""2019-05-03 14:22:56 [restartedMain] INFO  c.usa.state.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+""2019-05-03 14:22:56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2019-05-03 14:22:56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2019-05-03 14:23:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+""2019-05-03 14:23:00 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2019-05-03 14:23:00 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+""2019-05-03 14:23:00 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/rulesApi] - Initializing Spring embedded WebApplicationContext
+""2019-05-03 14:24:50 [restartedMain] INFO  c.usa.state.ed.EdRulesApiApplication - Starting EdRulesApiApplication on DESKTOP-KA9DOTA with PID 8580 (started by shrikant in E:\Spring Boot Project\EDRulesApi)
+""2019-05-03 14:24:50 [restartedMain] DEBUG c.usa.state.ed.EdRulesApiApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+""2019-05-03 14:24:50 [restartedMain] INFO  c.usa.state.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+""2019-05-03 14:24:50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2019-05-03 14:24:50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2019-05-03 14:24:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+""2019-05-03 14:24:53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2019-05-03 14:24:53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+""2019-05-03 14:24:53 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/rulesApi] - Initializing Spring embedded WebApplicationContext
+"
